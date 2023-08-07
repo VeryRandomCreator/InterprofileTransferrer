@@ -1,6 +1,6 @@
 # Interprofile Transferrer
 
-InterprofileTransferrer is licensed under the MIT License, and developed by VeryRandomCreator. License details can be found in LICENSE.md{LINK TO LICENSE}. 
+InterprofileTransferrer is licensed under the MIT License, and developed by VeryRandomCreator. License details can be found in [LICENSE.md](https://github.com/VeryRandomCreator/InterprofileTransferrer/blob/master/LICENSE.md). 
 
 ## Usages
 
