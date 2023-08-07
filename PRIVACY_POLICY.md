@@ -19,37 +19,45 @@ No information unique to your device (ex: ids) is saved or sent.
 
 ### `INTERNET`
 
-The `android.permission.INTERNET` permission is requested in the 'AndroidManifest.xml' file: {LINK TO LINE IN MANIFEST}
+The `android.permission.INTERNET` permission is requested in the 'AndroidManifest.xml' file:
+
+https://github.com/VeryRandomCreator/InterprofileTransferrer/blob/bd451ab654119bfd12668a4f4a2680b33418843c/app/src/main/AndroidManifest.xml#L17
 
 This permission is required in order to manage the sockets needed to transfer files. The sockets only have access to ports on `127.0.0.1`, preventing files from being sent and received to other ip addresses. The specific port can be chosen to the user's discretion.  
 
 ### `POST_NOTIFICATIONS`
 
-The `android.permission.POST_NOTIFICATIONS` permission is requested in the 'AndroidManifest.xml' file: {LINK TO LINE IN MANIFEST}
+The `android.permission.POST_NOTIFICATIONS` permission is requested in the 'AndroidManifest.xml' file:
+
+https://github.com/VeryRandomCreator/InterprofileTransferrer/blob/bd451ab654119bfd12668a4f4a2680b33418843c/app/src/main/AndroidManifest.xml#L19
 
 This permission allows the app to start the notifications needed to create the foreground services to run the file transfering mechanism.
 
 ### `FOREGROUND_SERVICE`
 
-The `android.permission.FOREGROUND_SERVICE` permission is requested in the 'AndroidManifest.xml' file: {LINK TO LINE IN MANIFEST}
+The `android.permission.FOREGROUND_SERVICE` permission is requested in the 'AndroidManifest.xml' file:
+
+https://github.com/VeryRandomCreator/InterprofileTransferrer/blob/bd451ab654119bfd12668a4f4a2680b33418843c/app/src/main/AndroidManifest.xml#L20
 
 This permission allows the app to create a foreground service for the client and server parts of the app
 
 ### `VIBRATE`
 
-The `android.permission.VIBRATE` permission is requested in the 'AndroidManifest.xml' file: {LINK TO LINE IN MANIFEST}
+The `android.permission.VIBRATE` permission is requested in the 'AndroidManifest.xml' file:
+
+https://github.com/VeryRandomCreator/InterprofileTransferrer/blob/bd451ab654119bfd12668a4f4a2680b33418843c/app/src/main/AndroidManifest.xml#L18
 
 This permission allows the app to vibrate the device.
 
 ## Attributions
 
-All attributions and source notices can be found in the NOTICE.md file {LINK TO NOTICE.md file}
+All attributions and source notices can be found in the [NOTICE.md](https://github.com/VeryRandomCreator/InterprofileTransferrer/blob/master/NOTICE.md) file.
 
 ## Final Comments
 
 I originally made this app to solve the problem I faced when transferring files between GrapheneOS profiles. I decided to publish it to gain experience and grow an online developer presence.
 
-More details about the app can be found in README.md {LINK TO PAGE}.
+More details about the app can be found in [README.md](https://github.com/VeryRandomCreator/InterprofileTransferrer/blob/master/README.md).
 
 ## Contact
 
