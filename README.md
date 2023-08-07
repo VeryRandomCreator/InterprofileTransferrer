@@ -24,7 +24,7 @@ To support the open-source developer community, and to follow the ideals of gene
 
 ### Google Play
 
-[Google Play](LINK TO PLAY IMAGE IN REPO)
+<img src="images/google-play-badge.png" height=75>
 
 Google Play and the Google Play logo are trademarks of Google LLC.
 
