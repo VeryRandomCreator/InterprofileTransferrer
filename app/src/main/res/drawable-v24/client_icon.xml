@@ -1,0 +1,14 @@
+
+<!--A very remixed version of the wifi icon and the wifi protected setup icon of the Material Design icons by Google-->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="31dp"
+    android:height="31dp"
+    android:tint="@color/medium_blue"
+    android:viewportWidth="31"
+    android:viewportHeight="31">
+
+    <path android:fillColor="@android:color/white" android:pathData="M 28 10 l 0.8 0.8 c 0 0 0.4 0.4 0.4 -0.3 l 0 -4.3 q 0 -1 -1.1 -1 l -4.2 0 q -0.7 0 -0.4 0.3 l 1.2 1.2 q 0.3 0.3 0 0.7 c -1.3 1.3 -3.1 2.2 -5 2.2 c -1 0 -2 -0.2 -2.4 -0.6 c -0.8 -0.5 -1.3 0 -0.8 0.8 c 1.5 1.5 3.1 2.9 5.3 2.9 c 2 0 4.1 -1.7 5.3 -2.9 q 0.4 -0.3 0.7 0 z"/>
+    <path android:fillColor="@android:color/white" android:pathData="M 3 7 l -0.8 0.8 c 0 0 -0.4 0.4 -0.4 -0.3 l 0 -4.3 q 0 -1 1 -1 l 4.3 0 q 0.7 0 0.4 0.3 l -1.2 1.2 q -0.3 0.3 0 0.7 c 1.3 1.3 3.1 2.2 5 2.2 c 1 0 2 -0.2 2.4 -0.6 c 0.8 -0.5 1.3 0 0.8 0.8 c -1.5 1.6 -3.1 2.9 -5.4 2.9 c -1.9 0 -4 -1.6 -5.2 -2.9 q -0.4 -0.3 -0.7 0 z"/>
+    <path android:fillColor="@android:color/white" android:pathData="M 3 14 q -0.9 0.5 -0.4 1.4 l 0.4 0.7 q 0.5 0.8 1.4 0.3 c 6.1 -3.5 13.9 -1.4 17.4 4.1 l 0.2 0.5 q 0.5 0.8 1.4 0.3 l 0.9 -0.5 q 0.8 -0.5 0.3 -1.3 l -0.2 -0.5 c -4.4 -6.7 -14 -9.3 -21.4 -5 z m 5.7 9.8 q -0.9 0.5 -0.4 1.4 l 1.6 2.8 q 0.5 0.8 1.4 0.3 l 2.8 -1.6 q 0.9 -0.5 0.4 -1.3 c -1.2 -2.1 -3.8 -2.8 -5.8 -1.6 z m -2.9 -4.9 q -0.8 0.5 -0.3 1.4 l 0.4 0.7 q 0.5 0.8 1.3 0.3 c 3.4 -1.9 7.8 -0.7 9.7 2.6 q 0.5 0.9 1.4 0.4 l 0.8 -0.5 q 0.9 -0.5 0.4 -1.4 c -2.7 -4.7 -8.8 -6.3 -13.7 -3.5 z"/>
+</vector>

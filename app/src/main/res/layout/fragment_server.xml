@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2023 VeryRandomCreator
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    tools:context=".ServerFragment">
+    <ImageView
+        android:id="@+id/serverImg"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/server_icon"
+        tools:ignore="ContentDescription" />
+
+    <ScrollView
+        android:id="@+id/serverScroll"
+        android:layout_width="match_parent"
+        android:layout_height="492dp"
+        android:layout_alignTop="@+id/serverImg"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="201dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="-1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/serverSetPortCard"
+                app:cardBackgroundColor="@color/medium_blue"
+                app:cardCornerRadius="35dp">
+
+                <TextView
+                    android:id="@+id/setPortTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/opensans_light"
+                    android:text="@string/set_port"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/setPortEdtTxt"
+                    android:layout_width="288dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans_light"
+                    android:hint="@string/default_port"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:text="@string/default_port"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/serverSetDirectoryCard"
+                app:cardBackgroundColor="@color/medium_blue"
+                app:cardCornerRadius="35dp">
+
+                <TextView
+                    android:id="@+id/selectDirectoryTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/opensans_light"
+                    android:text="@string/select_directory"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/selectDirectoryBtn"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginBottom="25dp"
+                    android:clickable="true"
+                    android:contentDescription="@string/select_directory_description"
+                    android:focusable="true"
+                    android:src="@drawable/select_directory_icon"
+                    app:backgroundTint="#7385E6"
+                    app:elevation="0dp"
+                    app:maxImageSize="30dp" />
+
+                <TextView
+                    android:id="@+id/selectedDirectoryTxt"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="72dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/opensans_light_italic"
+                    android:maxLines="1"
+                    android:textColor="@color/white" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/serverOpenServerCard"
+                app:cardBackgroundColor="@color/medium_blue"
+                app:cardCornerRadius="35dp">
+
+                <TextView
+                    android:id="@+id/openServerTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/opensans_light"
+                    android:textSize="22sp"
+                    android:text="@string/open_server"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/openServerBtn"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginBottom="25dp"
+                    android:clickable="true"
+                    android:contentDescription="@string/press_to_open_server"
+                    android:focusable="true"
+                    android:src="@drawable/start_server_icon"
+                    app:backgroundTint="#7385E6"
+                    app:elevation="0dp"
+                    app:maxImageSize="30dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/serverAdvancedOptionsCard"
+                app:cardBackgroundColor="@color/medium_blue"
+                app:cardCornerRadius="35dp">
+
+                <TextView
+                    android:id="@+id/advancedOptionsTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/advanced_options_lbl"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/opensans_light"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bufferSizeTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="60dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/opensans_light"
+                    android:textSize="18sp"
+                    android:text="@string/receive_buffer_size_lbl"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/receiveBufferSizeEdtTxt"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="220dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="25dp"
+                    android:fontFamily="@font/opensans_light"
+                    android:hint="@string/default_receive_buffer"
+                    android:inputType="number"
+                    android:text="@string/default_receive_buffer"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:autofillHints="@string/default_receive_buffer" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

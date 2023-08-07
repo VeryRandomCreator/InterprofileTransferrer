@@ -1,0 +1,33 @@
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2023 VeryRandomCreator
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<resources>
+    <string name="app_name">InterprofileTransferrer</string>
+    <string name="set_port">Set Port</string>
+    <string name="select_directory">Select Directory</string>
+    <string name="open_server">Open Server</string>
+    <string name="select_directory_lbl">Open Output Directory</string>
+    <string name="select_directory_description">Press to open directory selection dialog</string>
+    <string name="press_to_open_server">Press to open server</string>
+    <string name="select_directory_display">Press to open output directory</string>
+    <string name="default_port">3333</string>
+    <string name="advanced_options_lbl">Advanced Options</string>
+    <string name="receive_buffer_size_lbl">Receive Buffer Size:</string>
+    <string name="default_receive_buffer">512</string>
+    <string name="set_client_port_lbl">Set Port to Connect</string>
+    <string name="select_file_lbl">Select File</string>
+    <string name="select_file_description">Press to open file selection dialog</string>
+    <string name="send_file_lbl">Send File</string>
+    <string name="send_file_description">Press to send file to server</string>
+    <string name="read_buffer_size_lbl">Read Buffer Size:</string>
+    <string name="default_read_buffer_size">512</string>
+</resources>
