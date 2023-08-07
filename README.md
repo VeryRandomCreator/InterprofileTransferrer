@@ -18,13 +18,13 @@ For a more detailed explanation: The file is transferred using a client and serv
 
 ### Open-source
 
-To support the open-source developer community, and to follow the ideals of general GrapheneOS users, the InterprofileTransferrer is completely open-source. All permissions and other security-related matters can be found in the project's Privacy Policy {LINK TO PRIVACY POLICY}.
+To support the open-source developer community, and to follow the ideals of general GrapheneOS users, the InterprofileTransferrer is completely open-source. All permissions and other security-related matters can be found in the project's [Privacy Policy](https://github.com/VeryRandomCreator/InterprofileTransferrer/blob/master/PRIVACY_POLICY.md).
 
 ## Download
 
 ### Google Play
 
-<img src="images/google-play-badge.png" height=75>
+<img src="images/google-play-badge.png" width=150>
 
 Google Play and the Google Play logo are trademarks of Google LLC.
 
@@ -43,7 +43,7 @@ Coming soon...
 ## Setup
 
 The only setup requirement to transfer files between profiles is to have the app downloaded on the desired profiles.
-The notifications permission is required to launch the foreground service which sends/receives files. If the app does not have permission, you will be prompted with a permission request. All permissions used in the app are detailed in the Privacy Policy {LINK TO PRIVACY POLICY}.
+The notifications permission is required to launch the foreground service which sends/receives files. If the app does not have permission, you will be prompted with a permission request. All permissions used in the app are detailed in the [Privacy Policy](https://github.com/VeryRandomCreator/InterprofileTransferrer/blob/master/PRIVACY_POLICY.md).
 
 ## Usage Guide
 
@@ -51,18 +51,39 @@ The following is a quick guide to sending a file between profiles using the Inte
 1. **Setup Server**
     1. Select the output directory:
        Click the folder upload button in the "Select Directory" card. A folder selection prompt will appear, allowing you to select the directory for files to be transferred.
-       {ADD IMAGE OF SELECT DIRECTORY BUTTON}
-    2. Start the server service:
-       Click the start server button in the "Open Server" card. If the app cannot access to the notification, you will be prompted to accept and try again. If successful, a notification will appear to keep the foreground service active and display information about the server.
-       {ADD IMAGE OF START SERVER BUTTON}
-       {ADD IMAGE OF SERVER SERVICE NOTIFICATION}
-2. **Setup Client**
+
+       <img src="images/SelectDirectory.png" width=300>
+       
+       <i>Above is an image of the "Select Directory" card.</i>
+       
+    3. Start the server service:
+       Click the start server button in the "Open Server" card. If the app cannot access to the notification, you will be prompted to accept and try again. If successful, a notification will appear to keep the foreground service active and display information about the server. 
+       
+       <img src="images/OpenServer.png" width=300>
+       
+       <i>Above is an image of the "Open Server" card.</i>
+  
+       <img src="images/ServerNotification.png" width=300>
+       
+       <i>Above is an image of the notification received when the server is successfully started</i>
+       
+1. **Setup Client**
     1. Select the file to transfer:
        Click the File Upload button in the "Select File" card. A file selection prompt will appear, allowing you to select the file to be transferred.
-       {ADD IMAGE OF SELECT FILE BUTTON}
+       
+       <img src="images/SelectFile.png" width=300>
+       
+       <i>Above is an image of the "Select File" card.</i>
+       
     3. Click the Send File button in the "SendFile" card. If the app cannot access to the notification, you will be prompted to accept and try again. If successful, a notification will appear to keep the foreground service active and display information about the client.
-       {ADD IMAGE OF SEND FILE BUTTON}
-       {ADD IMAGE OF CLIENT SERVICE NOTIFICATION}
+       
+       <img src="images/SendFile.png" width=300>
+       
+       <i>Above is an image of the "Send File" card.</i>
+       
+       <img src="images/ClientNotification.png" width=300>
+       
+       <i>Above is an image of the notification received when the client is successfully started</i>
 
 ## Debugging
 
@@ -76,7 +97,7 @@ If you receive `Service error: Client service is already running! (If incorrect,
 
 This app was designed and developed by VeryRandomCreator.
 
-All attributions can be found in NOTICE.md{LINK TO NOTICE.MD}
+All attributions can be found in [NOTICE.md](https://github.com/VeryRandomCreator/InterprofileTransferrer/blob/master/NOTICE.md)
 
 Additional thanks to a very useful online [SVG Path Editor](https://yqnn.github.io/svg-path-editor/). This was used to modify certain icons of the Material Design icons by Google to create some of the icons used in the project. This resource is a very well-made open-source tool.
 
