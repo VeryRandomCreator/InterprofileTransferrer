@@ -34,11 +34,11 @@ Coming soon...
 
 ## Specifics
 
-<img src="https://img.shields.io/badge/Latest%20Release-Jan%202%2C%202023-yellow">  <img src="https://img.shields.io/badge/Version-1.0.0-green">  <a href="LINK TO LICENSE"><img src="https://img.shields.io/badge/License-MIT%20License-blue"></a>
+<img src="https://img.shields.io/badge/Latest%20Release-Jan%202%2C%202023-yellow">  <img src="https://img.shields.io/badge/Version-1.0.0-green">  <a href="https://github.com/VeryRandomCreator/InterprofileTransferrer/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT%20License-blue"></a>
 
 <img src="https://img.shields.io/badge/Target%20API%20Level-API%2033%20(Android%20Tiramisu)-red">  <img src="https://img.shields.io/badge/Minimum%21API%20Level-API%2021%20(Android%205.0)-orange">
 
-<a href="LINK TO PRIVACY POLICY"><img src="https://img.shields.io/badge/Privacy%20Policy-PRIVACY_POLICY.md-blueviolet"></a>
+<a href="https://github.com/VeryRandomCreator/InterprofileTransferrer/blob/master/PRIVACY_POLICY.md"><img src="https://img.shields.io/badge/Privacy%20Policy-PRIVACY_POLICY.md-blueviolet"></a>
 
 ## Setup
 
