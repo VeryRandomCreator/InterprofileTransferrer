@@ -29,15 +29,6 @@ import android.view.View;
 import android.widget.Toast;
 
 /*
- *TODO: BUGS
- * Other:
- * - remove prints DONE
- * - Make README.md file:
- *  - https://play.google.com/intl/en_us/badges/
- *  - https://developer.android.com/distribute/marketing-tools/linking-to-google-play
- */
-
-/*
 TODO: FEATURES
  - Send multiple files by keeping the server side open until the user presses button
  - Open like to git readme with info button
